@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2db40657-3a45-402a-8348-dd2f6f2ec07e">
+  <producedTypes>
+    <objectType typeId="d553e410-8d75-44fd-ad95-0b8e78585fce" valueTypeId="ec974085-8cb1-405a-917f-17e4ceec6ad1"/>
+    <refType typeId="e473e426-ad88-4726-b0ca-e4eb26e0170c" valueTypeId="4a67531f-91cf-4dd3-bcaf-1dabf2d69cfd"/>
+    <selectionType typeId="46864a64-89e8-47a2-9795-59a46748966b" valueTypeId="ee6dafc8-d6b8-4e6f-8e1e-493b689f11b4"/>
+    <listType typeId="cef987ef-f471-439a-8e5c-17eefdbd2609" valueTypeId="d1e6bad4-77e3-4c1a-a963-3a1c463cdca3"/>
+    <managerType typeId="f32cb382-54b6-4592-a1eb-edbb03ca5885" valueTypeId="aadfbea4-a03a-4f4d-93a0-487cec95a526"/>
+  </producedTypes>
+  <name>ТестГита</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест гита</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТестГита.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТестГита.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a9ca4636-0c98-4c09-a2d9-9e9f1c5e908a">
+    <name>РеквизитОрганизацииГИТТест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит организации ГИТТест</value>
+    </synonym>
+    <comment>мой реквизит</comment>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
