@@ -67,6 +67,7 @@
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Заказ</catalogs>
+  <catalogs>Catalog.ТестГита</catalogs>
   <documents>Document.ПоступлениеТоваров</documents>
   <reports>Report.Отчет1</reports>
   <dataProcessors>DataProcessor.Тест</dataProcessors>
