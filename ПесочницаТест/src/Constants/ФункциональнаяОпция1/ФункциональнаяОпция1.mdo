@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="874be124-fed1-4189-9d7c-d018db6e8562">
+  <producedTypes>
+    <managerType typeId="81bc33c4-9ecb-421e-8042-020e87348a4b" valueTypeId="5f7330d7-a8c7-4c46-8104-492de50c84ca"/>
+    <valueManagerType typeId="0bdd3996-d916-4d96-9eb8-4577e2b8032e" valueTypeId="6d9e6a64-b125-4d3f-9f0e-74af3e958d68"/>
+    <valueKeyType typeId="6fae18bb-4825-5a2f-8fc8-58ea8d9272f1" valueTypeId="fbc6eca0-71c6-5f8a-9f34-63eb10e19eaf"/>
+  </producedTypes>
+  <name>ФункциональнаяОпция1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция1</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9f6b30a-088e-448d-aa9c-16b31473d5bb">
+  <producedTypes>
+    <containerType typeId="4dfec9d9-2b5e-4e4a-b75e-317c968f3893" valueTypeId="baada50c-9251-4aa8-9226-5a83849b083c"/>
+  </producedTypes>
+  <name>ОпределяемыйТип1</name>
+  <type>
+    <types>DocumentRef.ПоступлениеТоваров</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5597c9de-1a2c-4b66-a7d6-ebb2a050bfd7">
+  <producedTypes>
+    <selectionType typeId="19ec3326-40bb-4e8e-93e1-b6d24310a678" valueTypeId="c0c21850-0f8e-425f-9cbd-806584a27a17"/>
+    <listType typeId="bb304288-058e-4961-8b1c-083633f46559" valueTypeId="a6f77d47-c426-460d-aa00-4f09541ad8b0"/>
+    <managerType typeId="ac7d3fbb-5bcf-431d-a0bb-1cbbb7ed4c13" valueTypeId="23b41e8e-57bd-42f2-9fcd-aa8e593cbf96"/>
+    <recordSetType typeId="a546337b-74a3-4390-9489-ec44156f64e8" valueTypeId="ed53acf1-1fbb-4d8b-b7f8-319bed164673"/>
+    <recordKeyType typeId="dd831071-5f8a-4543-9a1c-c5d8e815688c" valueTypeId="f12d4780-d982-4f70-aea3-2eae1e32f8bf"/>
+    <recordType typeId="14473edc-be19-4312-aedc-ef58c326528d" valueTypeId="afb25358-9ac9-426d-8eae-89a73779c655"/>
+    <recordManagerType typeId="98cc92c6-2bfc-471f-b14a-3b71e056368c" valueTypeId="d3c7582a-cfeb-4f1f-b92a-ac99b33ba315"/>
+  </producedTypes>
+  <name>РегистрСведений1</name>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.РегистрСведений1.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.РегистрСведений1.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1c3ef186-502d-412b-a526-321a861ee9f9">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="55cb99b9-3ee7-49ab-b955-d1ea7f3c5877">
+    <name>Себестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="baef46a6-7d9b-4159-92f6-a807e1e581ed">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="92bc0669-0473-4568-a6a8-c69645c1803e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6e8a9bd3-99d4-46ed-ab6b-32f2208eb198">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

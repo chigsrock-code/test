@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d43bac2c-17f1-424d-b095-4cb558af4b0b">
+  <name>ФункциональнаяОпция1</name>
+  <location>Constant.ФункциональнаяОпция1</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.Подсистема2</content>
+  <content>Catalog.Товары</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Заказ</content>
+</mdclass:FunctionalOption>

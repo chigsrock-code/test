@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d67e22c-eaba-46c8-a9af-dc7f006d624c">
+  <producedTypes>
+    <objectType typeId="e96b4606-fe40-4ba9-88a9-b174f6e59fbe" valueTypeId="76fc4510-4541-40e0-9429-8cd63e091307"/>
+    <managerType typeId="6eb5f29e-54be-42c0-97e6-2b358a86f9d5" valueTypeId="4e07c95e-4cf0-4fb6-a641-99bd64326126"/>
+  </producedTypes>
+  <name>Тест</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Тест.Form.Форма</defaultForm>
+  <attributes uuid="70d8900e-cc88-488c-8b10-9696f41f8068">
+    <name>СсылкаНаДок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на док</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПоступлениеТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="8d8c8109-0076-4415-8e98-e948cadfa5d9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

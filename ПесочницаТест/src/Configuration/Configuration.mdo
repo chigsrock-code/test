@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a5c416b-fce4-436d-946d-b666e1ce20a1">
+  <name>КонфигурацияДляЭкспериментов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурация для экспериментов</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="be93d699-bb1d-489e-9092-55179aa27072"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b3b93016-4430-4997-97cf-4050b68bcefe"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="30d1fa12-bdd9-4e06-adf1-8fdddf1e7026"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="4f2b7406-f87d-4d34-abb3-991389a7ebec"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5984274e-a4bc-4286-89bd-ef7e233c4986"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c8598153-ecff-49f6-b4cf-faa001c78702"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="8d9bb292-eae7-49b0-94f8-d9ab6244e61a"/>
+  <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Чигрин</vendor>
+  <version>999</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <logo/>
+  <splash>
+    <transparentPixel>
+      <x>102</x>
+      <y>40</y>
+    </transparentPixel>
+  </splash>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="427ce956-c017-4020-97fe-c0ebfce53ae3">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Подсистема1</subsystems>
+  <subsystems>Subsystem.Подсистема2</subsystems>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <sessionParameters>SessionParameter.ОбщийРеквизитОрганизацияЗначение</sessionParameters>
+  <sessionParameters>SessionParameter.ОбщийРеквизитОрганизацияИспользование</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Роль1</roles>
+  <commonModules>CommonModule.ОбщийМодульСервер</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиент</commonModules>
+  <eventSubscriptions>EventSubscription.ПодпискаНаСобытиеПроведение</eventSubscriptions>
+  <settingsStorages>SettingsStorage.ХранилищеНастроек1</settingsStorages>
+  <functionalOptions>FunctionalOption.ФункциональнаяОпция1</functionalOptions>
+  <definedTypes>DefinedType.ОпределяемыйТип1</definedTypes>
+  <commonCommands>CommonCommand.тест</commonCommands>
+  <commonCommands>CommonCommand.ТестРасшОпределяемыйТип</commonCommands>
+  <constants>Constant.КонстантаХранилища</constants>
+  <constants>Constant.ФункциональнаяОпция1</constants>
+  <catalogs>Catalog.Товары</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Заказ</catalogs>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <reports>Report.Отчет1</reports>
+  <dataProcessors>DataProcessor.Тест</dataProcessors>
+  <informationRegisters>InformationRegister.РегистрСведений1</informationRegisters>
+  <informationRegisters>InformationRegister.РегистрСведений2</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДвиженияТоваров</accumulationRegisters>
+</mdclass:Configuration>

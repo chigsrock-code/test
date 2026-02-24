@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac2c0d13-c45b-4a05-93d2-26eaaacf8fe9">
+  <name>Подсистема2</name>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.тест</content>
+  <content>AccumulationRegister.ДвиженияТоваров</content>
+  <content>Report.Отчет1</content>
+</mdclass:Subsystem>

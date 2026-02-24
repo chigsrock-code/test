@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="761b9e25-aa3a-4efa-b7b0-8ba5df25b49d">
+  <producedTypes>
+    <objectType typeId="eb87ba99-7f47-4ae4-a7f0-9dc7d695af1c" valueTypeId="c96c31d0-3004-46e9-a4ed-c59a9d53ac0b"/>
+    <managerType typeId="e094e8f8-950e-46a8-bbc2-cbb13861c896" valueTypeId="5001a49b-f478-4615-84f3-37772b130de2"/>
+  </producedTypes>
+  <name>Отчет1</name>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Отчет1.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.Отчет1.Template.Макет</mainDataCompositionSchema>
+  <forms uuid="2ca140f7-0661-42b1-8475-4cb0e0f33267">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="53005e55-d0fb-4b58-b03d-c881393b075a">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

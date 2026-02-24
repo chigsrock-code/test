@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c346542e-89a3-484e-8eb1-e4dc80e21a12">
+  <producedTypes>
+    <objectType typeId="b45d5114-4cf4-4ec9-8947-f0902de9e52c" valueTypeId="f8b24e89-2d11-44f6-a5e9-e70e68e52921"/>
+    <refType typeId="9ecbf19a-27ad-4aaa-8310-fbad665155ac" valueTypeId="372e69d5-27d8-417e-bac6-7e998b1eb48b"/>
+    <selectionType typeId="f604e6f5-3027-4ed5-83f3-137a5a36591e" valueTypeId="9cbcd71b-33be-4b38-9f5f-17fb3ae0a857"/>
+    <listType typeId="8dc1e853-c9cd-4db5-8bfa-1f1c29cfe84a" valueTypeId="3c0a27d7-7c78-409d-9f8d-b8fad3170992"/>
+    <managerType typeId="0202aac4-812b-4a45-a45b-9cb58c8d7c6a" valueTypeId="a0643234-533e-4b3e-90e5-28bb4dd9e9de"/>
+  </producedTypes>
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Товары.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Товары.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="7bdd14e0-405c-4c53-82da-ff4750ae9cd7">
+      <name>Колобок</name>
+      <description>Колобок</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+    </items>
+    <items id="13edfdf8-9bd6-4ccd-9bc4-22d06de2047a">
+      <name>Тестовый</name>
+      <description>Тестовый</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Товары.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.Товары.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="4809a09f-2c41-4f04-9954-a2b42fac8a89">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c79d2584-367e-462b-a789-28d722f1fe89">
+    <name>Просроченный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просроченный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="3b951f52-aaf6-414c-b8cd-e30cbcfc2575">
+    <producedTypes>
+      <objectType typeId="3b9d5f69-cb76-4c15-8b34-1e30ad2dc3e4" valueTypeId="c0cec031-dd2a-43a9-a3ce-486ac5f0eeec"/>
+      <rowType typeId="da5b3f65-d21e-49e9-8419-85b6683927e7" valueTypeId="8c7a03bc-b658-4a49-ba4c-cfe8b56144e1"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <attributes uuid="dc431bb4-a71d-4c76-9224-763c522d8fd7">
+      <name>Реквизит1</name>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3a271011-dbac-403c-8284-8d1e663eafac">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a786d19f-dbed-49a6-a448-19a83338239b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
