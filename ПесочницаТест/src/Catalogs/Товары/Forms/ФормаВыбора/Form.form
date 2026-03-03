@@ -59,6 +59,10 @@
         <segments>Список.Description</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
+      <handlers>
+        <event>OnChange</event>
+        <name>НаименованиеПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>НаименованиеРасширеннаяПодсказка</name>
         <id>18</id>
@@ -95,6 +99,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Список.Code</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>КодПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>КодРасширеннаяПодсказка</name>
         <id>21</id>
