@@ -64,6 +64,7 @@
   <commonCommands>CommonCommand.ТестРасшОпределяемыйТип</commonCommands>
   <constants>Constant.КонстантаХранилища</constants>
   <constants>Constant.ФункциональнаяОпция1</constants>
+  <constants>Constant.Константа3</constants>
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Заказ</catalogs>
