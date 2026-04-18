@@ -3,7 +3,7 @@
   <name>КонфигурацияДляЭкспериментов</name>
   <synonym>
     <key>ru</key>
-    <value>Конфигурация для экспериментов</value>
+    <value>Конфигурация для экспериментов EDT</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="be93d699-bb1d-489e-9092-55179aa27072"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b3b93016-4430-4997-97cf-4050b68bcefe"/>
